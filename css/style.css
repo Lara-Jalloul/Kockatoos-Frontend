@@ -97,18 +97,60 @@
 }
 
 /*home*/
+.vector-container {
+  position: relative;
+}
+
 .home-container {
+  background: linear-gradient(180deg, #f4f4f4 0%, #fff 68.85%);
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-vector {
+  position: absolute;
+  top: 72.5%;
+  left: 8.5%;
+  text-align: center;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.image-container img {
   width: 100%;
-  height: 78vh;
-  background-image: linear-gradient(180deg, #f4f4f4 0%, #fff 68.85%);
+  height: 60vh;
+}
+.content-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.home-rectangle {
-  height: 0.5vh;
-  width: 20%;
-  background: linear-gradient(90deg, #504ed8 0%, #00cad7 100%);
+.content-container h2 {
+  color: #504ed8;
+  font-family: Work Sans;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
+.content-container p {
+  color: #8785a5;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* About */
 .about-button {
   width: 164px;
   height: 45px;
@@ -125,13 +167,12 @@
 }
 
 .rectangle {
-  width: 164px; /* Adjust the rectangle width as needed */
-  height: 5px; /* Adjust the rectangle height as needed */
-  background-color: #09c4d0; /* Match button color or choose a different color */
+  width: 164px;
+  height: 5px;
+  background-color: #09c4d0;
 }
 
 /*service*/
-
 .service-title {
   color: #504ed8;
   font-family: Work Sans;
@@ -190,6 +231,7 @@
   background-size: 100%, 100%;
   border-radius: 50%;
   background-image: none;
+  margin-top: 10vh;
 }
 
 .carousel-control-next-icon:after {
@@ -241,6 +283,7 @@ h4 {
   font-weight: 400;
   line-height: normal;
   text-align: center;
+  padding-left: 1vw;
 }
 
 .info-container {
