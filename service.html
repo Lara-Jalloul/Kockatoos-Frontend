@@ -22,12 +22,19 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#goTop" data-bs-offset="0">
     <div class="banner">
-      <div class="navbar">
-        <img src="images/zin new 1.png" class="logo" />
+      <div class="navbar" id="navbar">
+        <a href="index.html" class="logo"><img src="images/zin new 1.png" /></a>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -36,7 +43,7 @@
           <li><a href="#">Contact us</a></li>
         </ul>
       </div>
-
+      <div class="home-rectangle"></div>
       <div
         class="container-fluid service-container"
         style="
@@ -181,9 +188,9 @@
               <div class="row">
                 <div class="col-12 nav">
                   <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact us</a></li>
                   </ul>
@@ -237,6 +244,13 @@
         </div> -->
       </footer>
       <!--end-->
+      <!-- to top -->
+      <div id="goTop">
+        <a href="#navbar" id="goTopBtn"
+          ><i class="fa-solid fa-chevron-up"></i
+        ></a>
+      </div>
+      <!-- bootstrap -->
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
