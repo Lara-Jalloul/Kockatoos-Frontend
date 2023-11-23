@@ -492,6 +492,7 @@ h4 {
   text-decoration: none;
   transition: opacity 0.3s linear;
   display: flex;
+  border-radius: 10px;
 }
 
 #goTop a:hover {
