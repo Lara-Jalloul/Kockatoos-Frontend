@@ -197,39 +197,6 @@
   color: #09c4d0;
 } */
 
-@media screen and (min-width: 500px) {
-  .about-content h1 {
-    font-size: 40px !important;
-  }
-  .about-content h3 {
-    font-size: 20px;
-  }
-  .service-title {
-    font-size: 40px;
-  }
-  .service-provide {
-    font-size: 20px;
-    margin-top: -2vh;
-  }
-}
-
-@media screen and (min-width: 790px) {
-  .about-content h1 {
-    font-size: 95px !important;
-  }
-  .about-content h3 {
-    font-size: 30px;
-    margin-top: -3vh;
-  }
-  .service-title {
-    font-size: 95px;
-  }
-  .service-provide {
-    font-size: 30px;
-    margin-top: -5vh;
-  }
-}
-
 .about-content h1 {
   color: #fff;
   font-family: Work Sans;
@@ -263,7 +230,7 @@
 .content-container h2 {
   color: #504ed8;
   font-family: Work Sans;
-  font-size: 40px;
+  /* font-size: 40px; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -272,7 +239,7 @@
 .content-container h3 {
   color: #00cad7;
   font-family: Work Sans;
-  font-size: 30px;
+  /* font-size: 30px; */
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -290,7 +257,7 @@
 .content-container p {
   color: #8785a5;
   font-family: Work Sans;
-  font-size: 16px;
+  /* font-size: 16px; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -323,10 +290,13 @@
   width: 202px;
   background-color: #09c4d0;
   color: #fff;
+  font-family: Work Sans;
   border: none;
+  font-weight: 600;
   cursor: pointer;
   height: 70px;
   margin-left: 20vw;
+  font-size: 20px;
 }
 
 .projects-container {
@@ -446,7 +416,7 @@ h4 {
 .image-overlay h5 {
   color: #fff;
   font-family: Work Sans;
-  font-size: 25px;
+  /* font-size: 25px; */
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -456,7 +426,7 @@ h4 {
   color: #fff;
   text-align: center;
   font-family: Work Sans;
-  font-size: 20px;
+  /* font-size: 20px; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -497,4 +467,148 @@ h4 {
 
 #goTop a:hover {
   opacity: 0.7;
+}
+
+/* @media screen and (min-width: 500px) {
+  .about-content h1 {
+    font-size: 40px !important;
+  }
+  .about-content h3 {
+    font-size: 20px;
+  }
+
+  .content-container h2 {
+    font-size: 35px !important;
+  }
+
+  .content-container p {
+    font-size: 14px !important;
+  }
+  .about-content p {
+    font-size: 14px !important;
+  }
+
+  .box-contact p {
+    font-size: 15px !important;
+  }
+
+  .box-contact button {
+    font-weight: 13px !important;
+  }
+
+  .service-title {
+    font-size: 40px;
+  }
+  .service-provide {
+    font-size: 20px;
+    margin-top: -2vh;
+  }
+}
+
+@media screen and (min-width: 790px) {
+  .about-content h1 {
+    font-size: 95px !important;
+  }
+  .about-content h3 {
+    font-size: 30px;
+    margin-top: -3vh;
+  }
+  .service-title {
+    font-size: 95px;
+  }
+  .service-provide {
+    font-size: 30px;
+    margin-top: -5vh;
+  }
+} */
+
+@media (min-width: 500px) and (max-width: 767.4px) {
+  .about-content h1 {
+    font-size: 40px;
+  }
+  .about-content h3 {
+    font-size: 20px;
+  }
+
+  .content-container h2 {
+    font-size: 35px;
+  }
+
+  .content-container p {
+    font-size: 14px;
+  }
+
+  .content-container h3 {
+    font-size: 25px;
+  }
+  .about-content p {
+    font-size: 14px !important;
+  }
+
+  .box-contact p {
+    font-size: 15px !important;
+  }
+
+  .box-contact button {
+    font-size: 13px !important;
+  }
+
+  .service-title {
+    font-size: 40px;
+  }
+  .service-provide {
+    font-size: 20px;
+    margin-top: -2vh;
+  }
+  .image-overlay h5 {
+    font-size: 15px;
+  }
+  .image-overlay h6 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 2000px) {
+  .about-content h1 {
+    font-size: 95px;
+  }
+  .about-content h3 {
+    font-size: 30px;
+  }
+  .content-container h3 {
+    font-size: 30px;
+  }
+
+  .content-container h2 {
+    font-size: 40px;
+  }
+
+  .content-container p {
+    font-size: 16px;
+  }
+  .about-content p {
+    font-size: 16px !important;
+  }
+
+  .box-contact p {
+    font-size: 20px !important;
+  }
+
+  .box-contact button {
+    font-weight: 13px !important;
+  }
+
+  .service-title {
+    font-size: 40px;
+  }
+  .service-provide {
+    font-size: 20px;
+    margin-top: -2vh;
+  }
+  .image-overlay h5 {
+    font-size: 25px;
+  }
+  .image-overlay h6 {
+    font-size: 20px;
+  }
 }
