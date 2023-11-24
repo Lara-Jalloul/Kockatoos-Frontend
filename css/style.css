@@ -140,7 +140,11 @@
     display: none;
   }
 }
-
+.home-rectangle {
+  height: 0.5vh;
+  width: 20%;
+  background: linear-gradient(90deg, #504ed8 0%, #00cad7 100%);
+}
 .home-container {
   background: linear-gradient(180deg, #f4f4f4 0%, #fff 68.85%);
   height: 70vh;
@@ -403,4 +407,230 @@ h4 {
 
 #goTop a:hover {
   opacity: 0.7;
+}
+
+.add {
+  top: 59%;
+}
+
+@media (max-width: 848px) and (min-width: 768px) {
+  .home-container {
+    height: 80vh;
+  }
+  .content-container h2 {
+    font-size: 40px;
+  }
+  .content-container p {
+    font-size: 17px;
+  }
+  .text-vector {
+    top: 65%;
+    left: 10%;
+    font-size: 14px;
+  }
+  .add {
+    top: 57%;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767.2px) {
+  .home-container {
+    height: 100vh;
+  }
+  .content-container h2 {
+    font-size: 35px;
+  }
+  .content-container p {
+    font-size: 16px;
+  }
+  .text-vector {
+    top: 34.5%;
+    left: 21%;
+    font-size: 12px;
+  }
+  .add {
+    top: 31.5%;
+    font-size: 12px;
+  }
+  .vector-container {
+    margin-bottom: 5vh;
+  }
+  .image-container img {
+    height: 40vh;
+  }
+  #goTop a {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 720px) and (min-width: 660px) {
+  .text-vector {
+    left: 19%;
+  }
+}
+
+@media (max-width: 659.2px) and (min-width: 620px) {
+  .text-vector {
+    left: 14%;
+  }
+}
+@media (max-width: 618.4px) and (min-width: 577.5px) {
+  .text-vector {
+    left: 14%;
+  }
+}
+@media (max-width: 576px) and (min-width: 500px) {
+  .text-vector {
+    left: 12%;
+  }
+}
+@media (min-width: 849.6px) and (max-width: 924px) {
+  .navbar ul li a {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 849.6px) and (max-width: 1197.6px) {
+  .image-container img {
+    margin-left: 8vh;
+  }
+  .content-container h2 {
+    font-size: 45px;
+  }
+  .content-container p {
+    font-size: 19px;
+  }
+  .text-vector {
+    font-size: 15px;
+    left: 12%;
+    top: 69.5%;
+  }
+  .add {
+    left: 12%;
+    top: 59%;
+  }
+}
+
+@media (min-width: 1460px) and (max-width: 1495.5px) {
+  .text-vector {
+    left: 7%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1456px) {
+  .text-vector {
+    left: 6%;
+  }
+}
+
+@media (min-width: 1349.6px) and (max-width: 1399.2px) {
+  .text-vector {
+    left: 11%;
+    top: 77%;
+  }
+  .add {
+    top: 62%;
+  }
+}
+
+@media (min-width: 1312px) and (max-width: 1348px) {
+  .text-vector {
+    left: 10%;
+    top: 74.5%;
+  }
+  .add {
+    top: 61%;
+  }
+}
+
+@media (min-width: 1323px) and (max-width: 1310.4px) {
+  .text-vector {
+    left: 9%;
+    top: 74.5%;
+  }
+  .add {
+    top: 61%;
+  }
+}
+
+@media (min-width: 1256px) and (max-width: 1310.4px) {
+  .text-vector {
+    left: 9%;
+    top: 74.5%;
+  }
+  .add {
+    top: 61%;
+  }
+}
+
+@media (min-width: 1260px) and (max-width: 1255.4px) {
+  .text-vector {
+    left: 6%;
+    top: 77%;
+  }
+  .add {
+    top: 62%;
+  }
+}
+
+@media (min-width: 1207px) and (max-width: 1258.4px) {
+  .text-vector {
+    left: 7%;
+    top: 75%;
+  }
+  .add {
+    top: 61%;
+  }
+}
+
+@media (min-width: 1199.2px) and (max-width: 1206.4px) {
+  .text-vector {
+    left: 5.5%;
+    top: 74%;
+  }
+  .add {
+    top: 61%;
+  }
+}
+
+@media (min-width: 1198.4px) and (max-width: 1199.2px) {
+  .text-vector {
+    left: 12%;
+    top: 74%;
+  }
+  .add {
+    top: 61%;
+  }
+}
+
+@media (max-width: 1197.6px) and (min-width: 500px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .service-title {
+    font-size: 40px;
+  }
+  .service-provide {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1198.4px) and (max-width: 2000px) {
+  h1 {
+    font-size: 95px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .service-title {
+    font-size: 95px;
+  }
+  .service-provide {
+    font-size: 30px;
+    margin-top: -2vh;
+  }
 }
