@@ -1298,3 +1298,50 @@ h4 {
     width: 15%;
   }
 }
+
+.owl-carousel {
+  width: 100%;
+}
+.owl-carousel .item {
+  position: relative;
+  text-align: center;
+}
+
+.owl-carousel .item img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.owl-carousel .item .overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-carousel .item .overlay-content img {
+  width: 60.968px;
+  height: 89.443px;
+}
+.owl-carousel .item .overlay-content p {
+  color: #504ed8;
+
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span {
+  color: #504ed8;
+  font-size: 30px;
+}
