@@ -352,18 +352,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-      let goTopBtn = document.getElementById("goTopBtn");
+      let mybutton = document.getElementById("goTopBtn");
+
       window.onscroll = function () {
         scrollFunction();
       };
+
       function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          goTopBtn.style.display = "flex";
+        let scrollTop =
+          document.body.scrollTop || document.documentElement.scrollTop;
+        if (scrollTop > 20) {
+          mybutton.style.display = "block";
         } else {
-          goTopBtn.style.display = "none";
+          mybutton.style.display = "none";
         }
       }
     </script>
