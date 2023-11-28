@@ -5,13 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    /> -->
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,7 +14,7 @@
 
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>Bootstrap Carousel</title>
+    <title>kockatoos</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,7 +42,8 @@
 
   <body data-bs-spy="scroll" data-bs-target="#goTop" data-bs-offset="0">
     <div class="banner">
-      <div class="navbar" id="navbar">
+      <!--Navbar-start-->
+      <nav class="navbar" id="navbar">
         <a href="index.html" class="logo"><img src="images/zin new 1.png" /></a>
 
         <input type="checkbox" id="check" />
@@ -67,18 +61,17 @@
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contact us</a></li>
         </ul>
-      </div>
+      </nav>
+      <!--Navbar-end-->
 
-      <!--homeStart-->
       <div class="home-rectangle"></div>
+      <!--Carousel-start-->
       <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <!-- Carousel Item 1 -->
           <div class="carousel-item active">
             <div class="home-container">
               <div class="container">
                 <div class="row">
-                  <!-- Content Column for Slide 1 -->
                   <div class="col-md-6 content-container">
                     <h2>A Full-stack Development Company</h2>
                     <p>
@@ -93,7 +86,6 @@
                       <div class="text-vector">LET’S GET IN TOUCH!</div>
                     </div>
                   </div>
-                  <!-- Image Column for Slide 1 -->
                   <div class="col-md-6 image-container">
                     <img
                       src="images/home.svg"
@@ -110,7 +102,6 @@
             <div class="home-container">
               <div class="container">
                 <div class="row">
-                  <!-- Content Column for Slide 1 -->
                   <div class="col-md-6 content-container">
                     <h2>Consultation</h2>
                     <p>
@@ -125,7 +116,6 @@
                       <div class="text-vector add">LET’S GET IN TOUCH!</div>
                     </div>
                   </div>
-                  <!-- Image Column for Slide 1 -->
                   <div class="col-md-6 image-container">
                     <img
                       src="images/consultation.svg"
@@ -142,7 +132,6 @@
             <div class="home-container">
               <div class="container">
                 <div class="row">
-                  <!-- Content Column for Slide 1 -->
                   <div class="col-md-6 content-container">
                     <h2>UI UX</h2>
                     <p>
@@ -157,7 +146,6 @@
                       <div class="text-vector add">LET’S GET IN TOUCH!</div>
                     </div>
                   </div>
-                  <!-- Image Column for Slide 1 -->
                   <div class="col-md-6 image-container">
                     <img
                       src="images/uiux.svg"
@@ -171,9 +159,9 @@
           </div>
         </div>
       </div>
-      <!--end-->
+      <!--Carousel-end-->
 
-      <!--AboutStart-->
+      <!--About-start-->
       <div
         class="container-fluid"
         style="
@@ -260,10 +248,10 @@
           </div>
         </div>
       </div>
-      <!--end-->
+      <!--About-end-->
 
-      <!--Services-->
-      <div clss="container-fluid">
+      <!--Services-start-->
+      <div class="container-fluid">
         <div class="row align-items-start">
           <div class="col-12">
             <div class="row align-items-center">
@@ -416,7 +404,7 @@
           </div>
         </div>
       </div>
-      <!--end-->
+      <!--Services-end-->
 
       <!--Footer-->
       <footer class="footer">
@@ -509,12 +497,6 @@
           nav: true,
           dots: true,
           responsive: {
-            // 768: {
-            //   items: 2,
-            // },
-            // 992: {
-            //   items: 3,
-            // },
             0: {
               items: 1, // Show one item on small screens
             },
